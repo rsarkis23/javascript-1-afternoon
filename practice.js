@@ -2,7 +2,7 @@
 
 // //Create a variable called myName that is a string data type
 
- let myName = 'Bogos Ralph Sarkis'
+ let myName = 'Ralph Sarkis'
 // //////////////////PROBLEM 2////////////////////
 
 // //Create a variable called myAge that is a number data type
