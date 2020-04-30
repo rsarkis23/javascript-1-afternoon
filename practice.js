@@ -65,8 +65,8 @@
 // //Code Here
  let dog = {
    name: 'Rusty',
-   age: 3,
    color: 'Brown',
+   age: 3,
    goodBoy: True
  }
 
@@ -104,14 +104,14 @@ function nameCheck(name) {
 
 // //Code Here
 function add(num1, num2){
-  var addedNumbers = num1 + num2
-  return addedNumbers
+  combinedNums = num1 + num2
+  return combinedNums
 }
 // //Now invoke add, passing in the numbers 3 and 4
 // //storing the result in the variable mathSum.
 
 // //Code Here
- var mathSum = add(3, 4)
+ let mathSum = add(3, 4)
 
 // //////////////////PROBLEM 12////////////////////
 
@@ -123,12 +123,12 @@ function add(num1, num2){
 // // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // // Code here
-function color(){
-  if (color == 'red'){
+function faveColorFinder(){
+  if (color === 'red'){
   return 'red is a great color'
-}if(color == 'green'){
+}if(color === 'green'){
   return 'green is a solid favorite color'
-}else if(color == 'black'){
+}else if(color === 'black'){
 return 'so trendy'
 }else{
   return 'you need to evaluate your favorite color choice'
@@ -181,4 +181,4 @@ let bathtubScope = ["duck", "sailorDuck", "rubberDuck"]
  age = 22
 // // Good news! We can live forever. Set your age to 999
 
- var newAge =  999
+ age =  999
