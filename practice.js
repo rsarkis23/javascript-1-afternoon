@@ -63,11 +63,11 @@
 // //and goodBoy (a boolean).
 
 // //Code Here
- let dog = {
+ var dog = {
    name: 'Rusty',
    color: 'Brown',
    age: 3,
-   goodBoy: True,
+   goodBoy: Boolean(true)
  }
 
 // //...access the dog's name from the object and assign it to a
@@ -124,12 +124,12 @@ function add(num1, num2){
 // // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // // Code here
-function faveColorFinder(){
-  if (color === 'red'){
+function faveColorFinder(color){
+  if (color == 'red'){
   return 'red is a great color'
-}if(color === 'green'){
+}if(color == 'green'){
   return 'green is a solid favorite color'
-}else if(color === 'black'){
+}else if(color == 'black'){
 return 'so trendy'
 }else{
   return 'you need to evaluate your favorite color choice'
