@@ -67,7 +67,7 @@
    name: 'Rusty',
    color: 'Brown',
    age: 3,
-   goodBoy: True
+   goodBoy: True,
  }
 
 // //...access the dog's name from the object and assign it to a
@@ -93,6 +93,7 @@ function nameCheck(name) {
     return 'Hey Bryan!'
   }else{
     var otherName = 'Cool name, '+name
+    return otherName;
   }
 }
 
@@ -111,7 +112,7 @@ function add(num1, num2){
 // //storing the result in the variable mathSum.
 
 // //Code Here
- let mathSum = add(3, 4)
+ var mathSum = add(3, 4)
 
 // //////////////////PROBLEM 12////////////////////
 
